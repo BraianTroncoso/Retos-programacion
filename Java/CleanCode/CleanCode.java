@@ -72,9 +72,32 @@ public class CleanCode{
     
 
         // Notación húngara 6)
+
         // PhoneNumber phoneString;
         // El nombre no cambia cuando cambia el tipo
+
+
+        // Prefijos de miembros 7)
+
+        // public class Part {
+        //     private String m_dsc; // La descripción textual
+        //     void setName(String name) {
+        //     m_dsc = name;
+        //     }
+        //     }
+        //     public class Part {
+        //     String description;
+        //     void setDescription(String description) {
+        //     this.description = description;
+        //     }
+        //     }
+
+
+        // Interfaces e Implementaciones 8)
+
         
+
+
 
 
     }
