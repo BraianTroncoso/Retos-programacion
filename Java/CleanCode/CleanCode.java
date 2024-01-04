@@ -185,5 +185,14 @@ public class CleanCode{
         // significado de cada nombre en especial cuando ya conocen el concepto bajo
         // otro nombre diferente.
 
-        // 16)    
+        // Usar nombres de dominios de problemas 16)    
+    
+        // Cuando no exista un término de programación para lo que esté haciendo, use
+        // el nombre del dominio de problemas. Al menos el programador que
+        // mantenga su código podrá preguntar el significado a un experto en dominios.
+
+        
+        // Añadir contexto con sentido 17) 
+
+        
     }
