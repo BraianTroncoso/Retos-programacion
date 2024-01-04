@@ -70,5 +70,11 @@ public class CleanCode{
         // solucionar un problema. Los nombres codificados resultan impronunciables y
         // suelen escribirse de forma incorrecta.
     
+
+        // Notación húngara 6)
+        // PhoneNumber phoneString;
+        // El nombre no cambia cuando cambia el tipo
         
+
+
     }
