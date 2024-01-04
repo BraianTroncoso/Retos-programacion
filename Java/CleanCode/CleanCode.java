@@ -152,10 +152,20 @@ public class CleanCode{
 
 
         // No se exceda con el atractivo 12)
-        
+
         // Opte por la claridad antes que
         // por el entretenimiento. En el código, el atractivo suele aparecer como formas
         // coloquiales o jergas. Por ejemplo, no use whack() en lugar de kill(). No
         // recurra a bromas culturales como eatMyShorts() si quiere decir abort().
         // Diga lo que piense. Piense lo que diga.
+    
+
+        // Una palabra por concepto 13)
+
+        // Elija una palabra por cada concepto abstracto y manténgala. Por ejemplo,
+        // resulta confuso usar fetch, retrieve y get como métodos equivalentes de
+        // clases distintas. ¿Cómo va a recordar qué método se corresponde a cada
+        // clase?
+
+        
     }
