@@ -150,4 +150,12 @@ public class CleanCode{
         // sus
         // constructores
 
+
+        // No se exceda con el atractivo 12)
+        
+        // Opte por la claridad antes que
+        // por el entretenimiento. En el código, el atractivo suele aparecer como formas
+        // coloquiales o jergas. Por ejemplo, no use whack() en lugar de kill(). No
+        // recurra a bromas culturales como eatMyShorts() si quiere decir abort().
+        // Diga lo que piense. Piense lo que diga.
     }
