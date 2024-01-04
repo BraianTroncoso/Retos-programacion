@@ -176,5 +176,5 @@ public class CleanCode{
         // semánticamente equivalentes, no hay problema.
 
 
-        // 15)
+        // Usar nombres de dominios de soluciones 15)
     }
