@@ -95,7 +95,14 @@ public class CleanCode{
 
         // Interfaces e Implementaciones 8)
 
-        
+        // ¿Qué nombres debe
+        // asignar? ¿IShapeFactory y ShapeFactory? Prefiero las interfaces sin
+        // adornos. La I inicial, tan habitual en los archivos de legado actuales es, en el
+        // mejor de los casos, una distracción, y en el peor, un exceso de información.
+        // No quiero que mis usuarios sepan que se trata de una interfaz, solamente que
+        // se trata de ShapeFactory. Si tengo que codificar la interfaz o la
+        // implementación, opto por ésta última. Es mejor usar ShapeFactoryImp o
+        // incluso CShapeFactory, que codificar la interfaz.
 
 
 
