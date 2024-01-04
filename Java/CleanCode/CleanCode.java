@@ -194,5 +194,72 @@ public class CleanCode{
         
         // Añadir contexto con sentido 17) 
 
-        
+        // Listado 2-1
+        // Variables en un contexto ambiguo.
+        // private void printGuessStatistics(char candidate, int count) {
+        // String number;
+        // String verb;
+        // String pluralModifier;
+        // if (count == 0) {
+        // number = “no”;
+        // verb = “are”;
+        // pluralModifier = “s”;
+        // } else if (count == 1) {
+        // number = “1”;
+        // 55verb = “is”;
+        // pluralModifier = “”;
+        // } else {
+        // number = Integer.toString(count);
+        // verb = “are”;
+        // pluralModifier = “s”;
+        // }
+        // String guessMessage = String.format(
+        // “There %s %s %s%s”, verb, number, candidate, pluralModifier
+        // );
+        // print(guessMessage);
+        // }
+        // La función es demasiado extensa y las variables aparecen por todas
+        // partes. Para dividir la función en fragmentos más reducidos necesitamos crear
+        // una clase GuessStatisticsMessage y convertir a las tres variables en
+        // campos de la misma. De este modo contamos con un contexto más obvio
+        // para las tres variables. Forman parte sin duda de GuessStatisticsMessage.
+        // La mejora del contexto también permite que el algoritmo sea más limpio y se
+        // divida en funciones más reducidas (véase el Listado 2-2).
+        // Listado 2-2
+        // Variables con un contexto.
+        // public class GuessStatisticsMessage (
+        // private String number;
+        // private String verb;
+        // private String pluralModifier;
+        // public String make(char candidate, int count) {
+        // createPluralDependentMessageParts(count);
+        // return String.format(
+        // “There %s %s %s%s,
+        // verb, number, candidate, pluralModifier);
+        // }
+        // private void createPluralDependentMessageParts(int count) {
+        // if (count == 0) {
+        // thereAreNoLetters();
+        // } else if (cout == 1) {
+        // thereIsOneLetter();
+        // } else {
+        // thereAreManyLetters(count);
+        // }
+        // }
+        // private void thereAreManyLetters(int count) {
+        // number = “1”;
+        // 56verb = “is”;
+        // pluralModifier = “”;
+        // }
+        // private void thereIsOneLetter() {
+        // number = “1”;
+        // verb = “is”;
+        // pluralModifier = “”;
+        // }
+        // private void thereAreNoLetters() {
+        // number = “no”;
+        // verb = “are”;
+        // pluralModifier = “s”;
+        // }
+        // }
     }
