@@ -119,5 +119,14 @@ public class CleanCode{
         // puedan entender.
 
 
+        // Nombres de clases 10)
+
+        // Las clases y los objetos deben tener nombres o frases de nombre como
+        // Customer, WikiPage, Account y AddressParser. Evite palabras como
+        // Manager, Processor, Data, o Info en el nombre de una clase. El nombre de
+        // una clase no debe ser un verbo.
+
+        
+
 
     }
