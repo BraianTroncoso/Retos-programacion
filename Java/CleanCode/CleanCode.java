@@ -105,6 +105,19 @@ public class CleanCode{
         // incluso CShapeFactory, que codificar la interfaz.
 
 
+        // Evitar asignaciones mentales 9)
+
+        // No hay peor motivo para usar el nombre c que a y b ya estén
+        // seleccionados.
+        // Por lo general, los programadores son gente inteligente. A la gente
+        // inteligente le gusta presumir de sus habilidades mentales. Si puede recordar
+        // que r es la versión en minúscula de una URL sin el host y el sistema, debe ser
+        // muy listo.
+        // Una diferencia entre un programador inteligente y un programador
+        // profesional es que este último sabe que la claridad es lo que importa. Los
+        // profesionales usan sus poderes para hacer el bien y crean código que otros
+        // puedan entender.
+
 
 
     }
