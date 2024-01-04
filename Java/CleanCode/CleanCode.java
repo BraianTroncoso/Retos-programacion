@@ -45,7 +45,7 @@ public class CleanCode{
         // };
 
 
-        // Usar nombres que se puedan buscar
+        // Usar nombres que se puedan buscar 4)
 
         // Compare:
         // for (int j=0; j<34; j++) {
@@ -60,6 +60,15 @@ public class CleanCode{
         // int realTaskWeeks = (realdays / WORK_DAYS_PER_WEEK);
         // sum += realTaskWeeks;
 }
-            
+        // Evitar codificaciones 5)
+        
+        // Ya tenemos suficientes codificaciones como para tener que añadir otras
+        // nuevas. Al codificar información de tipos o ámbitos en un nombre se dificulta
+        // la descodificación. No parece razonable que todos los nuevos empleados
+        // tengan que aprender otro lenguaje de codificación además del código con el
+        // que van a trabajar. Es una carga mental innecesaria a la hora de intentar
+        // solucionar un problema. Los nombres codificados resultan impronunciables y
+        // suelen escribirse de forma incorrecta.
     
+        
     }
