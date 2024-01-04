@@ -177,4 +177,13 @@ public class CleanCode{
 
 
         // Usar nombres de dominios de soluciones 15)
+
+        // Recuerde que los lectores de su código serán programadores. Por ello, use
+        // términos informáticos, algoritmos, nombres de patrones, términos
+        // matemáticos y demás. No conviene extraer todos los nombres del dominio de
+        // problemas ya que no queremos que nuestros colegas tengan que preguntar el
+        // significado de cada nombre en especial cuando ya conocen el concepto bajo
+        // otro nombre diferente.
+
+        // 16)    
     }
