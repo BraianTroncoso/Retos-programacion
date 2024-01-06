@@ -262,4 +262,9 @@ public class CleanCode{
         // pluralModifier = “s”;
         // }
         // }
+
+        // No añadir contextos innecesarios 18)
+
+        // Los nombres breves suelen ser más adecuados que los extensos, siempre
+        // que sean claros. No añada más contexto del necesario a un nombre.
     }
