@@ -270,5 +270,9 @@ public class CleanCode{
 
         // Conclusion 19)
 
+        // La gente teme que al cambiar los nombres otros programadores se quejen.
+        // Nosotros no compartimos ese temor y agradecemos los cambios de nombre
+        // (siempre que sean a mejor).
+
         // Practica ejercicios    
     }
