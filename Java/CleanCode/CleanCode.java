@@ -395,3 +395,19 @@ public class CleanCode{
         // Se entiende que puede ser una funcion que tenga varios niveles de abstracción, pero que sea
         // una unica responsabilidad es la intencion, no podemos tampoco reducir una función a un solo if
         // porque solo sabemos que su responsabilidad es la comprobación no tiene sentido. 
+
+        // 22) Leer código de arriba a abajo: la regla descendente
+
+        // Para decirlo de otra forma, queremos leer el programa como si fuera un
+        // conjunto de párrafos TO, en el que cada uno describe el nivel actual de
+        // abstracción y hace referencia a los párrafos TO posteriores en el siguiente
+        // nivel.
+        // Para incluir configuraciones y detalles, incluimos configuraciones,
+        // después del contenido de la página de prueba, y por último los
+        // detalles.
+        // Para incluir las configuraciones, incluimos la configuración de suite
+        // si se trata de una suite, y después la configuración convencional.
+        // Para incluir la configuración de suite; buscamos la jerarquía
+        // principal de la página SuiteSetUp y añadimos una instrucción
+        // include con la ruta de dicha página.
+        // Para buscar la jerarquía principal…
