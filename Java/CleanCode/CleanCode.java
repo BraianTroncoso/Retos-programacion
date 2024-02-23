@@ -387,3 +387,11 @@ public class CleanCode{
         // anidadas. Por tanto, el nivel de sangrado de una función no debe ser mayor de
         // uno o dos. Evidentemente, de esta forma las funciones son más fáciles de leer
         // y entender.
+
+        // 21) Hacer una cosa
+
+        // LAS FUNCIONES SÓLO DEBEN HACER UNA COSA. DEBEN
+        // HACERLO BIEN Y DEBE SER LO ÚNICO QUE HAGAN.
+        // Se entiende que puede ser una funcion que tenga varios niveles de abstracción, pero que sea
+        // una unica responsabilidad es la intencion, no podemos tampoco reducir una función a un solo if
+        // porque solo sabemos que su responsabilidad es la comprobación no tiene sentido. 
