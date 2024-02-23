@@ -276,7 +276,7 @@ public class CleanCode{
 
         // Practica ejercicios    
 
-        // Sobre funciones :
+        // 19) Sobre funciones :
         // Las funciones deben tener el tamaño más minimo posible, y deben ser sumamente descriptivas.
         // Ejemplo de refactorización:
 
@@ -376,4 +376,14 @@ public class CleanCode{
         //     breves que las del Listado 3-2. De hecho, el Listado 3-2 debería reducirse
         //     como el Listado 3-3.
 
+        // 20) Bloques y sangrado
         
+        // Esto implica que los bloques en instrucciones if, else, while y similares
+        // deben tener una línea de longitud que, seguramente, sea la invocación de una
+        // función. De esta forma, no sólo se reduce el tamaño de la función, sino que
+        // también se añade valor documental ya que la función invocada desde el
+        // bloque puede tener un nombre descriptivo. También implica que las
+        // funciones no deben tener un tamaño excesivo que albergue estructuras
+        // anidadas. Por tanto, el nivel de sangrado de una función no debe ser mayor de
+        // uno o dos. Evidentemente, de esta forma las funciones son más fáciles de leer
+        // y entender.
