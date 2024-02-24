@@ -411,3 +411,6 @@ public class CleanCode{
         // principal de la página SuiteSetUp y añadimos una instrucción
         // include con la ruta de dicha página.
         // Para buscar la jerarquía principal…
+
+        // 23) Instrucciones Switch
+        // 67
