@@ -414,3 +414,10 @@ public class CleanCode{
 
         // 23) Instrucciones Switch
         // 67
+        // Mi regla general para las instrucciones switch es que se pueden tolerar si
+        // sólo aparecen una vez, se usan para crear objetos polimórficos y se ocultan
+        // tras una relación de herencia para que el resto del sistema no las pueda ver
+        // [G23]. Evidentemente, cada caso es diferente y en ocasiones se puede
+        // incumplir una o varias partes de esta regla.
+        // Usar nombres descriptivos
+        }
