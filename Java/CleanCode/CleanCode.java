@@ -428,5 +428,14 @@ public class CleanCode{
         // La estructura similar de estos
         // nombres permite que la secuencia cuente una historia
 
+        //67
+        //Argumentos de funciones
+        //El número ideal de argumentos para una
+        // función es cero. Después uno (monádico) y
+        // dos (diádico). Siempre que sea posible,
+        // evite la presencia de tres argumentos
+        // (triádico). Más de tres argumentos
+        // (poliádico) requiere una justificación
+        // especial y no es muy habitual.
 
         }
