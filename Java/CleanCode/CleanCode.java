@@ -421,14 +421,14 @@ public class CleanCode{
         // incumplir una o varias partes de esta regla.
 
 
-        //68
+        // 68
         // Usar nombres descriptivos
         // No tema dedicar tiempo a elegir un buen nombre. De hecho, debería
         // probar con varios nombres y leer el código con todos ellos.
         // La estructura similar de estos
         // nombres permite que la secuencia cuente una historia
 
-        //67
+        // 67
         //Argumentos de funciones
         //El número ideal de argumentos para una
         // función es cero. Después uno (monádico) y
@@ -446,4 +446,14 @@ public class CleanCode{
         // Un argumento de salida es la mejor opción, después de la ausencia de
         // argumentos.
 
+        // 68
+        // Formas monádicas habituales
+        // Hay dos motivos principales para pasar un solo argumento a una función.
+        // Puede que realice una pregunta sobre el argumento, como en boolean
+        // fileExists(“MyFile”), o que procese el argumento, lo transforme en otra
+        // cosa y lo devuelva. Por ejemplo, InputStream fileOpen(“MyFile”)
+        // transforma un nombre de archivo String en un valor devuelto InputStream.
+        // Los usuarios esperan estos dos usos cuando ven una función. Debe elegir
+        // nombres que realicen la distinción con claridad y usar siempre ambas formas
+        // en un contexto coherente
         }
