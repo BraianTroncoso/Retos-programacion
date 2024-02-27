@@ -456,4 +456,5 @@ public class CleanCode{
         // Los usuarios esperan estos dos usos cuando ven una función. Debe elegir
         // nombres que realicen la distinción con claridad y usar siempre ambas formas
         // en un contexto coherente
+        
         }
