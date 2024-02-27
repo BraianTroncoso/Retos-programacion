@@ -437,5 +437,13 @@ public class CleanCode{
         // (triádico). Más de tres argumentos
         // (poliádico) requiere una justificación
         // especial y no es muy habitual.
+        // Los argumentos de salida son más difíciles de entender que los de entrada. Al
+        // leer una función, estamos acostumbrados al concepto de información añadida
+        // a la función a través de argumentos y extraída a través de un valor devuelto.
+        // No esperamos que la información se devuelva a través de los argumentos. Por
+        // ello, los argumentos de salida suelen obligamos a realizar una comprobación
+        // doble.
+        // Un argumento de salida es la mejor opción, después de la ausencia de
+        // argumentos.
 
         }
