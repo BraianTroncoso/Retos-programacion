@@ -419,5 +419,14 @@ public class CleanCode{
         // tras una relación de herencia para que el resto del sistema no las pueda ver
         // [G23]. Evidentemente, cada caso es diferente y en ocasiones se puede
         // incumplir una o varias partes de esta regla.
+
+
+        //68
         // Usar nombres descriptivos
+        // No tema dedicar tiempo a elegir un buen nombre. De hecho, debería
+        // probar con varios nombres y leer el código con todos ellos.
+        // La estructura similar de estos
+        // nombres permite que la secuencia cuente una historia
+
+
         }
