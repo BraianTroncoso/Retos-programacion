@@ -456,5 +456,15 @@ public class CleanCode{
         // Los usuarios esperan estos dos usos cuando ven una función. Debe elegir
         // nombres que realicen la distinción con claridad y usar siempre ambas formas
         // en un contexto coherente
+
+        // 69
+        // Usar nombres descriptivos
+        // No tema los nombres extensos. Un nombre descriptivo extenso
+        // es mucho mejor que uno breve pero enigmático. Use una convención de
+        // nombres que permita leer varias palabras en los nombres de las funciones y
+        // use esas palabras para asignar a la función un nombre que describa su
+        // cometido.
+        // La estructura similar de estos
+        // nombres permite que la secuencia cuente una historia.
         
         }
